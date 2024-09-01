@@ -1,4 +1,4 @@
-FROM centos:7.9.2009
+FROM almalinux:8.10-20240723
 
 RUN yum install -y gcc gdb make zip unzip wget git ctags valgrind ncurses-static
 
